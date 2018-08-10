@@ -32,6 +32,13 @@ print(sum)
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
 #Print the difference variable to see your result.
+def subtract(num_1, num_2):
+    'subtract numbers 10 minus 20'
+    return num_1 - num_2
+subtract (box_1, box_2)
+
+difference = subtract(box_1, box_2)
+print(difference)
 
 
 #4
