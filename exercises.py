@@ -4,6 +4,8 @@
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
+box_1 = 10
+box_2 = 20
 
 
 #2
@@ -11,6 +13,14 @@
 #Create a function named `add` which will take two parameters: `num_1` and `num_2`.
  
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
+def add(num_1, num_2):
+    'sum of two number 10 and 20'
+    return num_1 + num_2
+add(box_1, box_2)
+
+sum = add(box_1, box_2)
+print(sum)
+
 
 #Print the sum variable to see your result.
 
@@ -69,7 +79,7 @@
 #Function - check_quotient
 #Create a function named `check_quotient` which does not require any parameters.
 
-#This function will multiply the values stored in the product and quotient variables. Invoke this function and print your result.
+#This function will divide the values stored in the product and quotient variables. Invoke this function and print your result.
 
 
 #10
